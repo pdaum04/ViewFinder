@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		180CE44E22EF69D6003E1831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CE44D22EF69D6003E1831 /* AppDelegate.swift */; };
-		180CE45022EF69D6003E1831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CE44F22EF69D6003E1831 /* ViewController.swift */; };
 		180CE45322EF69D6003E1831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CE45122EF69D6003E1831 /* Main.storyboard */; };
 		180CE45622EF69D6003E1831 /* KlossAGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180CE45422EF69D6003E1831 /* KlossAGram.xcdatamodeld */; };
 		180CE45822EF69D6003E1831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180CE45722EF69D6003E1831 /* Assets.xcassets */; };
 		180CE45B22EF69D6003E1831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CE45922EF69D6003E1831 /* LaunchScreen.storyboard */; };
+		180CE46522EF7BC7003E1831 /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CE46422EF7BC7003E1831 /* NewPhotoViewController.swift */; };
+		1841A9EE22F0863A009EDE6C /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841A9ED22F0863A009EDE6C /* PostTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		180CE44A22EF69D6003E1831 /* KlossAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KlossAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		180CE44D22EF69D6003E1831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		180CE44F22EF69D6003E1831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		180CE45222EF69D6003E1831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		180CE45522EF69D6003E1831 /* KlossAGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KlossAGram.xcdatamodel; sourceTree = "<group>"; };
 		180CE45722EF69D6003E1831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		180CE45A22EF69D6003E1831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		180CE45C22EF69D6003E1831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180CE46422EF7BC7003E1831 /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
+		1841A9ED22F0863A009EDE6C /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,8 @@
 		180CE44122EF69D6003E1831 = {
 			isa = PBXGroup;
 			children = (
+				1841A9ED22F0863A009EDE6C /* PostTableViewController.swift */,
+				180CE46422EF7BC7003E1831 /* NewPhotoViewController.swift */,
 				180CE44C22EF69D6003E1831 /* KlossAGram */,
 				180CE44B22EF69D6003E1831 /* Products */,
 			);
@@ -57,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				180CE44D22EF69D6003E1831 /* AppDelegate.swift */,
-				180CE44F22EF69D6003E1831 /* ViewController.swift */,
 				180CE45122EF69D6003E1831 /* Main.storyboard */,
 				180CE45722EF69D6003E1831 /* Assets.xcassets */,
 				180CE45922EF69D6003E1831 /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				180CE45622EF69D6003E1831 /* KlossAGram.xcdatamodeld in Sources */,
-				180CE45022EF69D6003E1831 /* ViewController.swift in Sources */,
+				1841A9EE22F0863A009EDE6C /* PostTableViewController.swift in Sources */,
+				180CE46522EF7BC7003E1831 /* NewPhotoViewController.swift in Sources */,
 				180CE44E22EF69D6003E1831 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
