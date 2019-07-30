@@ -14,6 +14,7 @@
 		180CE45B22EF69D6003E1831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180CE45922EF69D6003E1831 /* LaunchScreen.storyboard */; };
 		180CE46522EF7BC7003E1831 /* NewPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180CE46422EF7BC7003E1831 /* NewPhotoViewController.swift */; };
 		1841A9EE22F0863A009EDE6C /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841A9ED22F0863A009EDE6C /* PostTableViewController.swift */; };
+		1841A9F022F0B7B2009EDE6C /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841A9EF22F0B7B2009EDE6C /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		180CE45C22EF69D6003E1831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		180CE46422EF7BC7003E1831 /* NewPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPhotoViewController.swift; sourceTree = "<group>"; };
 		1841A9ED22F0863A009EDE6C /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		1841A9EF22F0B7B2009EDE6C /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			children = (
 				1841A9ED22F0863A009EDE6C /* PostTableViewController.swift */,
 				180CE46422EF7BC7003E1831 /* NewPhotoViewController.swift */,
+				1841A9EF22F0B7B2009EDE6C /* PhotoDetailViewController.swift */,
 				180CE44C22EF69D6003E1831 /* KlossAGram */,
 				180CE44B22EF69D6003E1831 /* Products */,
 			);
@@ -144,6 +147,7 @@
 				180CE45622EF69D6003E1831 /* KlossAGram.xcdatamodeld in Sources */,
 				1841A9EE22F0863A009EDE6C /* PostTableViewController.swift in Sources */,
 				180CE46522EF7BC7003E1831 /* NewPhotoViewController.swift in Sources */,
+				1841A9F022F0B7B2009EDE6C /* PhotoDetailViewController.swift in Sources */,
 				180CE44E22EF69D6003E1831 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
